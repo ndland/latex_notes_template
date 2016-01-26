@@ -1,0 +1,44 @@
+\documentclass[titlepage]{article}
+\usepackage{fancyhdr}
+\fancyhf{}
+
+\topmargin=-0.45in
+\evensidemargin=0in
+\oddsidemargin=0in
+\textwidth=6.5in
+\textheight=9.0in
+\headsep=0.25in
+
+\newcommand{\noteTitle}{\today\ - Notes}
+\newcommand{\professor}{Guangzhi Qu}
+\newcommand{\class}{CSE 450 Operating Systems}
+\newcommand{\classTime}{Monday \& Wednesday 3:30 - 5:17 pm}
+\newcommand{\notesAuthor}{Nicholas Land}
+
+\pagestyle{fancy}
+\lhead{\notesAuthor}
+\chead{\class}
+\rhead{\noteTitle}
+\lfoot{}
+\rfoot{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+
+\title{
+  \textmd{\LARGE{\textbf{\noteTitle}}}\\
+  \textmd{\Large{\textit{\class}}}\\
+  \textmd{\Large{\textit{Professor\ \professor}}}\\
+  \textmd{\normalsize{\classTime}}\\
+  \vspace{3.5in}
+  \textmd{\LARGE{\textbf{\notesAuthor}}}\\
+  \date{}
+}
+
+\begin{document}
+  \maketitle
+  \section*{Hardware things}
+    \paragraph{First Paragraph}
+    This is the first paragraph of what could possibly be a long document.
+
+  \subsection*{Even more hardware things}
+\end{document}
